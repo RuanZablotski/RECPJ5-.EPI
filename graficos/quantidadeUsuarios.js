@@ -9,8 +9,8 @@ async function quantidadeUsuariosPorRede() {
 
     const data = [
         {
-            x: nomeDasRedes, 
-            y: quantidadeDeUsuarios, 
+            x: Dados, 
+            y: quantidadeAlunos, 
             type: 'bar',
             marker: {
                 color: getCSS('--primary-color')
